@@ -1,0 +1,24 @@
+{
+    "version": "0.23.2",
+    "description": "A small, fast code editor written in Go with a native GPU UI.",
+    "homepage": "https://usemayoi.com",
+    "license": "MIT",
+    "url": "https://github.com/sorrycc/Mayoi/releases/download/v0.23.2/mayoi-0.23.2-windows-amd64.tar.gz",
+    "hash": "7c4a2f437aa822bc0602153368b5efa4a2389105d701dac5ff9fe5638fd5ac23",
+    "bin": "Mayoi.exe",
+    "shortcuts": [
+        [
+            "Mayoi.exe",
+            "Mayoi"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sorrycc/Mayoi"
+    },
+    "autoupdate": {
+        "url": "https://github.com/sorrycc/Mayoi/releases/download/v$version/mayoi-$version-windows-amd64.tar.gz",
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
