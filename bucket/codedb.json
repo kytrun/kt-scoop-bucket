@@ -1,0 +1,23 @@
+{
+    "version": "0.2.5864",
+    "description": "Code intelligence for your coding agent, built in Zig and connected over MCP.",
+    "homepage": "https://github.com/justrach/codedb",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/justrach/codedb/releases/download/v0.2.5864/codedb-windows-x86_64.exe",
+    "hash": "1765f0e7ed307c0f292366a846211aa0d38de52c18486c54c5a1dfe1c5fe36aa",
+    "bin": [
+        [
+            "codedb-windows-x86_64.exe",
+            "codedb"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/justrach/codedb"
+    },
+    "autoupdate": {
+        "url": "https://github.com/justrach/codedb/releases/download/v$version/codedb-windows-x86_64.exe",
+        "hash": {
+            "url": "$baseurl/checksums.sha256"
+        }
+    }
+}
