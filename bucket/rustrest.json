@@ -1,0 +1,24 @@
+{
+    "version": "0.2.3",
+    "description": "An open-source, cross-platform native API testing platform written in Rust.",
+    "homepage": "https://github.com/SojebSikder/rustrest",
+    "license": "MIT",
+    "url": "https://github.com/SojebSikder/rustrest/releases/download/v0.2.3/rustrest-x86_64-pc-windows-msvc.zip",
+    "hash": "233898b63bae93ad25257c9b7e1e96cf5f998348c472ac19e876df55b91316e0",
+    "bin": "rustrest.exe",
+    "shortcuts": [
+        [
+            "rustrest.exe",
+            "Rustrest"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/SojebSikder/rustrest"
+    },
+    "autoupdate": {
+        "url": "https://github.com/SojebSikder/rustrest/releases/download/v$version/rustrest-x86_64-pc-windows-msvc.zip",
+        "hash": {
+            "url": "$baseurl/rustrest-x86_64-pc-windows-msvc.zip.sha256"
+        }
+    }
+}
