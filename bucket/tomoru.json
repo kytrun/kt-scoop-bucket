@@ -1,0 +1,24 @@
+{
+    "version": "0.2.3",
+    "description": "Live bilingual subtitles for anything your computer plays: videos, streams, games, and meetings.",
+    "homepage": "https://github.com/ACAne0320/Tomoru",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/ACAne0320/Tomoru/releases/download/v0.2.3/tomoru-0.2.3-windows-amd64.tar.gz",
+    "hash": "0ddaf2e0d4d6d914b16a688f5d8431b40fd84e19e8069944d319b5aa5f57c0f9",
+    "bin": "Tomoru.exe",
+    "shortcuts": [
+        [
+            "Tomoru.exe",
+            "Tomoru"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ACAne0320/Tomoru"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ACAne0320/Tomoru/releases/download/v$version/tomoru-$version-windows-amd64.tar.gz",
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}

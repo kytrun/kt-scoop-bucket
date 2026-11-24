@@ -24,6 +24,7 @@ scoop install kt/<app>
 | `nomo-scholar` | [ZeroDevi1/nomo-mygo](https://github.com/ZeroDevi1/nomo-mygo) | A local-first academic writing editor for Markdown, LaTeX, and Typst. |
 | `quiet-md` | [s1dashu/quiet-md](https://github.com/s1dashu/quiet-md) | Fast, quiet notes that live on your computer. A native notes app built with Rust + GPUI. |
 | `rustrest` | [SojebSikder/rustrest](https://github.com/SojebSikder/rustrest) | An open-source, cross-platform native API testing platform written in Rust. |
+| `tomoru` | [ACAne0320/Tomoru](https://github.com/ACAne0320/Tomoru) | Live bilingual subtitles for anything your computer plays: videos, streams, games, and meetings. |
 | `wake` | [iAmCorey/Wake](https://github.com/iAmCorey/Wake) | A native desktop app that gathers every coding-agent session on your machine into one place. |
 | `zpad` | [helloxz/zpad](https://github.com/helloxz/zpad) | A cross-platform, natively rendered text editor without Git, AI, or WebView. |
 
