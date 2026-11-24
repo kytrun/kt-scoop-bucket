@@ -1,0 +1,51 @@
+{
+    "version": "0.1.17",
+    "description": "An offline-first office suite (ElyMail, ElyDoc, ElyTable, ElyShow, ElyPDF, ElyMark, ElyTree) built in Rust and GPUI.",
+    "homepage": "https://office.elygpui.com",
+    "license": "MIT",
+    "url": "https://github.com/ELY-Open-Source/ElyOffice/releases/download/v0.1.17/ElyOffice-0.1.17-windows-x86_64-setup.exe",
+    "hash": "c2da2d2d2e24bc4f4609e9b06864a020cb163af519cf7c62eb1d17df6fa62bbd",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\$fname\" \"$dir\" -Removal",
+            "Remove-Item (Join-Path $dir '$PLUGINSDIR') -Recurse -Force -ErrorAction SilentlyContinue",
+            "Remove-Item (Join-Path $dir '$_12_') -Recurse -Force -ErrorAction SilentlyContinue"
+        ]
+    },
+    "shortcuts": [
+        [
+            "ely-mail.exe",
+            "ElyMail"
+        ],
+        [
+            "ely-doc.exe",
+            "ElyDoc"
+        ],
+        [
+            "ely-table.exe",
+            "ElyTable"
+        ],
+        [
+            "ely-show.exe",
+            "ElyShow"
+        ],
+        [
+            "ely-pdf.exe",
+            "ElyPDF"
+        ],
+        [
+            "ely-mark.exe",
+            "ElyMark"
+        ],
+        [
+            "ely-tree.exe",
+            "ElyTree"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ELY-Open-Source/ElyOffice"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ELY-Open-Source/ElyOffice/releases/download/v$version/ElyOffice-$version-windows-x86_64-setup.exe"
+    }
+}
