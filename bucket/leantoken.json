@@ -1,0 +1,18 @@
+{
+    "version": "0.1.28",
+    "description": "Code intelligence for agents: find the code that matters and keep your context window and tokens lean.",
+    "homepage": "https://github.com/morluto/leantoken",
+    "license": "MIT OR Apache-2.0",
+    "url": "https://github.com/morluto/leantoken/releases/download/v0.1.28/leantoken-x86_64-pc-windows-msvc.zip",
+    "hash": "e168417f904302c1d0889090fb0ae458dd7350d2f833d0d61f87ed24c2733ba1",
+    "bin": "leantoken.exe",
+    "checkver": {
+        "github": "https://github.com/morluto/leantoken"
+    },
+    "autoupdate": {
+        "url": "https://github.com/morluto/leantoken/releases/download/v$version/leantoken-x86_64-pc-windows-msvc.zip",
+        "hash": {
+            "url": "$baseurl/leantoken-x86_64-pc-windows-msvc.zip.sha256"
+        }
+    }
+}
