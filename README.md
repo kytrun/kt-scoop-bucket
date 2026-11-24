@@ -17,7 +17,6 @@ scoop install kt/<app>
 | `bsk` | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | Connect your AI agent to the browser you already use. |
 | `codedb` | [justrach/codedb](https://github.com/justrach/codedb) | Code intelligence for your coding agent, built in Zig and connected over MCP. |
 | `duckle` | [slothflowlabs/duckle](https://github.com/slothflowlabs/duckle) | An open-source ETL platform for authoring pipelines on a canvas, in Python, or SQL and running them on your own infrastructure. |
-| `fluentcleaner` | [builtbybel/FluentCleaner](https://github.com/builtbybel/FluentCleaner) | Transparent, community-powered CCleaner alternative for Windows. |
 | `google-java-format` | [google/google-java-format](https://github.com/google/google-java-format) | A Java formatter that reformats Java source code to comply with Google Java Style. |
 | `leantoken` | [morluto/leantoken](https://github.com/morluto/leantoken) | Code intelligence for agents: find the code that matters and keep your context window and tokens lean. |
 | `mayoi` | [sorrycc/Mayoi](https://github.com/sorrycc/Mayoi) | A small, fast code editor written in Go with a native GPU UI. |
