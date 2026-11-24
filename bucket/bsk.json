@@ -1,0 +1,16 @@
+{
+    "version": "0.5.0",
+    "description": "Connect your AI agent to the browser you already use.",
+    "homepage": "https://browserskill.weixin.qq.com/",
+    "license": "MIT",
+    "url": "https://github.com/Tencent/BrowserSkill/releases/download/cli-v0.5.0/bsk-v0.5.0-x86_64-pc-windows-msvc.zip",
+    "hash": "1bba7cd6d771df48485c396b8d5f1e06f9bc93cd648b0552013c30f90aeaaa40",
+    "bin": "bsk.exe",
+    "checkver": {
+        "github": "https://github.com/Tencent/BrowserSkill",
+        "regex": "cli-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Tencent/BrowserSkill/releases/download/cli-v$version/bsk-v$version-x86_64-pc-windows-msvc.zip"
+    }
+}

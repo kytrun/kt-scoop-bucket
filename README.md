@@ -14,6 +14,7 @@ scoop install kt/<app>
 | App | Source | Description |
 | --- | --- | --- |
 | `ai-memory` | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Long-term memory for agent coding CLIs and handoff between different agent vendors. |
+| `bsk` | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | Connect your AI agent to the browser you already use. |
 | `duckle` | [slothflowlabs/duckle](https://github.com/slothflowlabs/duckle) | An open-source ETL platform for authoring pipelines on a canvas, in Python, or SQL and running them on your own infrastructure. |
 | `mayoi` | [sorrycc/Mayoi](https://github.com/sorrycc/Mayoi) | A small, fast code editor written in Go with a native GPU UI. |
 | `mdnote` | [Lahai-Roi/MDNote](https://github.com/Lahai-Roi/MDNote) | A fast, lightweight Markdown and TXT editor for Windows. |
