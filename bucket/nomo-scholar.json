@@ -1,0 +1,21 @@
+{
+    "version": "0.9.1",
+    "description": "A local-first academic writing editor for Markdown, LaTeX, and Typst.",
+    "homepage": "https://github.com/ZeroDevi1/nomo-mygo",
+    "license": "AGPL-3.0-or-later",
+    "url": "https://github.com/ZeroDevi1/nomo-mygo/releases/download/v0.9.1/Nomo_0.9.1_x64.zip",
+    "hash": "eb08cbcf4bcf88f6d30e960cd2f67b5ee5934c09ba2c4006feb01055ae8102cc",
+    "extract_dir": "Nomo",
+    "shortcuts": [
+        [
+            "Nomo Scholar.exe",
+            "Nomo Scholar"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/ZeroDevi1/nomo-mygo"
+    },
+    "autoupdate": {
+        "url": "https://github.com/ZeroDevi1/nomo-mygo/releases/download/v$version/Nomo_$version_x64.zip"
+    }
+}

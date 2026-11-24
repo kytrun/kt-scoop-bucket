@@ -22,6 +22,7 @@ scoop install kt/<app>
 | `leantoken` | [morluto/leantoken](https://github.com/morluto/leantoken) | Code intelligence for agents: find the code that matters and keep your context window and tokens lean. |
 | `mayoi` | [sorrycc/Mayoi](https://github.com/sorrycc/Mayoi) | A small, fast code editor written in Go with a native GPU UI. |
 | `mdnote` | [Lahai-Roi/MDNote](https://github.com/Lahai-Roi/MDNote) | A fast, lightweight Markdown and TXT editor for Windows. |
+| `nomo-scholar` | [ZeroDevi1/nomo-mygo](https://github.com/ZeroDevi1/nomo-mygo) | A local-first academic writing editor for Markdown, LaTeX, and Typst. |
 | `rustrest` | [SojebSikder/rustrest](https://github.com/SojebSikder/rustrest) | An open-source, cross-platform native API testing platform written in Rust. |
 | `zpad` | [helloxz/zpad](https://github.com/helloxz/zpad) | A cross-platform, natively rendered text editor without Git, AI, or WebView. |
 
