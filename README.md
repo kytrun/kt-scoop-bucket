@@ -16,6 +16,7 @@ scoop install kt/<app>
 | `ai-memory` | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Long-term memory for agent coding CLIs and handoff between different agent vendors. |
 | `bsk` | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | Connect your AI agent to the browser you already use. |
 | `duckle` | [slothflowlabs/duckle](https://github.com/slothflowlabs/duckle) | An open-source ETL platform for authoring pipelines on a canvas, in Python, or SQL and running them on your own infrastructure. |
+| `google-java-format` | [google/google-java-format](https://github.com/google/google-java-format) | A Java formatter that reformats Java source code to comply with Google Java Style. |
 | `mayoi` | [sorrycc/Mayoi](https://github.com/sorrycc/Mayoi) | A small, fast code editor written in Go with a native GPU UI. |
 | `mdnote` | [Lahai-Roi/MDNote](https://github.com/Lahai-Roi/MDNote) | A fast, lightweight Markdown and TXT editor for Windows. |
 | `rustrest` | [SojebSikder/rustrest](https://github.com/SojebSikder/rustrest) | An open-source, cross-platform native API testing platform written in Rust. |

@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "description": "A Java formatter that reformats Java source code to comply with Google Java Style.",
+    "homepage": "https://github.com/google/google-java-format",
+    "license": "Apache-2.0",
+    "url": "https://github.com/google/google-java-format/releases/download/v2.0.0/google-java-format_windows-x86-64.exe",
+    "hash": "6e757021d3b5a8133ca3b5b1915c4cf38dc46ad0886bc9059fcc2ccb7b6036e5",
+    "bin": [
+        [
+            "google-java-format_windows-x86-64.exe",
+            "google-java-format"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/google/google-java-format"
+    },
+    "autoupdate": {
+        "url": "https://github.com/google/google-java-format/releases/download/v$version/google-java-format_windows-x86-64.exe"
+    }
+}
