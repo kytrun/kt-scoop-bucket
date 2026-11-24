@@ -1,0 +1,21 @@
+{
+    "version": "2.5.3",
+    "description": "A fast, lightweight Markdown and TXT editor for Windows.",
+    "homepage": "https://github.com/Lahai-Roi/MDNote",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/Lahai-Roi/MDNote/releases/download/v2.5.3/MDNote-2.5.3-portable.zip",
+    "hash": "71d2c6b53311e67a65cbb6688e2d58935f397e257d802224c0d176a7fe048e4a",
+    "bin": "MDNote.exe",
+    "shortcuts": [
+        [
+            "MDNote.exe",
+            "MDNote"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Lahai-Roi/MDNote"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Lahai-Roi/MDNote/releases/download/v$version/MDNote-$version-portable.zip"
+    }
+}

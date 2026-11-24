@@ -6,7 +6,7 @@ Personal [Scoop](https://scoop.sh) bucket maintained by [kytrun](https://github.
 
 ```powershell
 scoop bucket add kt https://github.com/kytrun/kt-scoop-bucket
-scoop install kt/ai-memory
+scoop install kt/<app>
 ```
 
 ## Apps
@@ -14,5 +14,6 @@ scoop install kt/ai-memory
 | App | Source | Description |
 | --- | --- | --- |
 | `ai-memory` | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Long-term memory for agent coding CLIs and handoff between different agent vendors. |
+| `mdnote` | [Lahai-Roi/MDNote](https://github.com/Lahai-Roi/MDNote) | A fast, lightweight Markdown and TXT editor for Windows. |
 
 Each manifest uses `checkver` + `autoupdate`, so new upstream releases are picked up automatically by the scheduled Excavator workflow (`.github/workflows/excavator.yml`).
