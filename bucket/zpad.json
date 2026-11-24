@@ -1,0 +1,24 @@
+{
+    "version": "0.4.1",
+    "description": "A cross-platform, natively rendered text editor without Git, AI, or WebView.",
+    "homepage": "https://github.com/helloxz/zpad",
+    "license": "AGPL-3.0-only",
+    "url": "https://github.com/helloxz/zpad/releases/download/v0.4.1/zpad-0.4.1-windows-amd64.tar.gz",
+    "hash": "020b2e28fe47e6d4a3c0c13e02a45bcc2ac4d06bdcca98232208569257cfceda",
+    "bin": "ZPad.exe",
+    "shortcuts": [
+        [
+            "ZPad.exe",
+            "ZPad"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/helloxz/zpad"
+    },
+    "autoupdate": {
+        "url": "https://github.com/helloxz/zpad/releases/download/v$version/zpad-$version-windows-amd64.tar.gz",
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
