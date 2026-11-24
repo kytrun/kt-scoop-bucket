@@ -1,0 +1,25 @@
+{
+    "version": "0.1.14",
+    "description": "Fast, quiet notes that live on your computer. A native notes app built with Rust + GPUI.",
+    "homepage": "https://github.com/s1dashu/quiet-md",
+    "license": "MIT",
+    "url": "https://github.com/s1dashu/quiet-md/releases/download/v0.1.14/quiet-md-0.1.14-windows-x64-setup.exe",
+    "hash": "b450cf0811400339d834f1c247885b65fa193732eca59c9a5f447a3084b058ad",
+    "innosetup": true,
+    "bin": "quiet_md.exe",
+    "shortcuts": [
+        [
+            "quiet_md.exe",
+            "Quiet.md"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/s1dashu/quiet-md"
+    },
+    "autoupdate": {
+        "url": "https://github.com/s1dashu/quiet-md/releases/download/v$version/quiet-md-$version-windows-x64-setup.exe",
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
