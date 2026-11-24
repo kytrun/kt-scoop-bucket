@@ -23,6 +23,7 @@ scoop install kt/<app>
 | `mayoi` | [sorrycc/Mayoi](https://github.com/sorrycc/Mayoi) | A small, fast code editor written in Go with a native GPU UI. |
 | `mdnote` | [Lahai-Roi/MDNote](https://github.com/Lahai-Roi/MDNote) | A fast, lightweight Markdown and TXT editor for Windows. |
 | `nomo-scholar` | [ZeroDevi1/nomo-mygo](https://github.com/ZeroDevi1/nomo-mygo) | A local-first academic writing editor for Markdown, LaTeX, and Typst. |
+| `pay-respects` | [iffse/pay-respects](https://github.com/iffse/pay-respects) | A fast, rule-based command-line corrector that suggests and runs fixes for your failed commands. |
 | `quiet-md` | [s1dashu/quiet-md](https://github.com/s1dashu/quiet-md) | Fast, quiet notes that live on your computer. A native notes app built with Rust + GPUI. |
 | `rustrest` | [SojebSikder/rustrest](https://github.com/SojebSikder/rustrest) | An open-source, cross-platform native API testing platform written in Rust. |
 | `tomoru` | [ACAne0320/Tomoru](https://github.com/ACAne0320/Tomoru) | Live bilingual subtitles for anything your computer plays: videos, streams, games, and meetings. |

@@ -1,0 +1,15 @@
+{
+    "version": "0.9.0",
+    "description": "A fast, rule-based command-line corrector that suggests and runs fixes for your failed commands.",
+    "homepage": "https://github.com/iffse/pay-respects",
+    "license": "AGPL-3.0-only",
+    "url": "https://github.com/iffse/pay-respects/releases/download/v0.9.0/pay-respects-0.9.0-x86_64-pc-windows-msvc.zip",
+    "hash": "4d160ca51db1a3a116abef8eac66ae34465c7f007748c93c6877117a0461d7dd",
+    "bin": "pay-respects.exe",
+    "checkver": {
+        "github": "https://github.com/iffse/pay-respects"
+    },
+    "autoupdate": {
+        "url": "https://github.com/iffse/pay-respects/releases/download/v$version/pay-respects-$version-x86_64-pc-windows-msvc.zip"
+    }
+}
