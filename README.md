@@ -19,6 +19,7 @@ scoop install kt/<app>
 | `duckle` | [slothflowlabs/duckle](https://github.com/slothflowlabs/duckle) | An open-source ETL platform for authoring pipelines on a canvas, in Python, or SQL and running them on your own infrastructure. |
 | `elyoffice` | [ELY-Open-Source/ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) | An offline-first office suite (ElyMail, ElyDoc, ElyTable, ElyShow, ElyPDF, ElyMark, ElyTree) built in Rust and GPUI. |
 | `google-java-format` | [google/google-java-format](https://github.com/google/google-java-format) | A Java formatter that reformats Java source code to comply with Google Java Style. |
+| `kubeui` | [IvanJosipovic/KubeUI](https://github.com/IvanJosipovic/KubeUI) | A Kubernetes user interface for managing clusters and resources. |
 | `leantoken` | [morluto/leantoken](https://github.com/morluto/leantoken) | Code intelligence for agents: find the code that matters and keep your context window and tokens lean. |
 | `mayoi` | [sorrycc/Mayoi](https://github.com/sorrycc/Mayoi) | A small, fast code editor written in Go with a native GPU UI. |
 | `mdnote` | [Lahai-Roi/MDNote](https://github.com/Lahai-Roi/MDNote) | A fast, lightweight Markdown and TXT editor for Windows. |

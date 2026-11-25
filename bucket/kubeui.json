@@ -1,0 +1,26 @@
+{
+    "version": "1.8.1",
+    "description": "A Kubernetes user interface for managing clusters and resources.",
+    "homepage": "https://github.com/IvanJosipovic/KubeUI",
+    "license": "MIT",
+    "url": "https://github.com/IvanJosipovic/KubeUI/releases/download/v1.8.1/KubeUI-win-x64-Portable.zip",
+    "hash": "00e0f0b25b9eebceeb1ad22468fbe79cc088666529bc1a0a01a9d22df9764cbe",
+    "bin": [
+        [
+            "KubeUI.exe",
+            "kubeui"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "KubeUI.exe",
+            "KubeUI"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/IvanJosipovic/KubeUI"
+    },
+    "autoupdate": {
+        "url": "https://github.com/IvanJosipovic/KubeUI/releases/download/v$version/KubeUI-win-x64-Portable.zip"
+    }
+}
