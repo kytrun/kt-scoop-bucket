@@ -29,6 +29,5 @@ scoop install kt/<app>
 | `rustrest` | [SojebSikder/rustrest](https://github.com/SojebSikder/rustrest) | An open-source, cross-platform native API testing platform written in Rust. |
 | `tomoru` | [ACAne0320/Tomoru](https://github.com/ACAne0320/Tomoru) | Live bilingual subtitles for anything your computer plays: videos, streams, games, and meetings. |
 | `wake` | [iAmCorey/Wake](https://github.com/iAmCorey/Wake) | A native desktop app that gathers every coding-agent session on your machine into one place. |
-| `zpad` | [helloxz/zpad](https://github.com/helloxz/zpad) | A cross-platform, natively rendered text editor without Git, AI, or WebView. |
 
 Each manifest uses `checkver` + `autoupdate`, so new upstream releases are picked up automatically by the scheduled Excavator workflow (`.github/workflows/excavator.yml`).
