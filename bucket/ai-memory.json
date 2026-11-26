@@ -1,10 +1,10 @@
 {
-    "version": "3.6.1",
+    "version": "3.6.2",
     "description": "Long-term memory for agent coding CLIs and handoff between different agent vendors.",
     "homepage": "https://github.com/akitaonrails/ai-memory",
     "license": "MIT",
-    "url": "https://github.com/akitaonrails/ai-memory/releases/download/v3.6.1/ai-memory-windows-x86_64.zip",
-    "hash": "8c565f8996edb1cd42577045158c94a698687798cda689f16a6240b3a3d988f0",
+    "url": "https://github.com/akitaonrails/ai-memory/releases/download/v3.6.2/ai-memory-windows-x86_64.zip",
+    "hash": "e16757ba4de56bf0d4ace4122d19876f9ee757ccea06d40120d560f4125ac346",
     "bin": "ai-memory.exe",
     "checkver": {
         "github": "https://github.com/akitaonrails/ai-memory"
