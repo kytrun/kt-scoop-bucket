@@ -1,10 +1,10 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "An open-source ETL platform for authoring pipelines on a canvas, in Python, or SQL and running them on your own infrastructure.",
     "homepage": "https://duckle.org/",
     "license": "MIT OR Apache-2.0",
-    "url": "https://github.com/slothflowlabs/duckle/releases/download/v0.9.0/Duckle-windows-x64.exe",
-    "hash": "257f1866a9ea5dff5634550aa3b70d4338311c4d54e8070728877c3ccf7efa59",
+    "url": "https://github.com/slothflowlabs/duckle/releases/download/v0.9.1/Duckle-windows-x64.exe",
+    "hash": "03e962aa796f4e970688a6d4efcb70e1cc8f86c34852ff000a200c5706c0ee02",
     "bin": [
         [
             "Duckle-windows-x64.exe",
