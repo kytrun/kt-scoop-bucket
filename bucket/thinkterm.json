@@ -1,0 +1,27 @@
+{
+    "version": "0.6.2",
+    "description": "A workspace-first terminal with a built-in multiplexer that keeps your sessions running after you close the window.",
+    "homepage": "https://github.com/RoversX/ThinkTerm",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/RoversX/ThinkTerm/releases/download/0.6.2/ThinkTerm-windows-0.6.2.zip",
+    "hash": "7c6e70035fb270538779f05df6a740d885d225189856c5bfeb5dcb440b8b7027",
+    "extract_dir": "ThinkTerm-windows-0.6.2",
+    "bin": "thinkterm.exe",
+    "shortcuts": [
+        [
+            "thinkterm.exe",
+            "ThinkTerm"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/RoversX/ThinkTerm"
+    },
+    "autoupdate": {
+        "url": "https://github.com/RoversX/ThinkTerm/releases/download/$version/ThinkTerm-windows-$version.zip",
+        "extract_dir": "ThinkTerm-windows-$version",
+        "hash": {
+            "url": "$baseurl/thinkterm-release.txt",
+            "regex": "$sha256\\s+\\d+\\s+$basename"
+        }
+    }
+}

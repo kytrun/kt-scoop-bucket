@@ -27,6 +27,7 @@ scoop install kt/<app>
 | `pay-respects` | [iffse/pay-respects](https://github.com/iffse/pay-respects) | A fast, rule-based command-line corrector that suggests and runs fixes for your failed commands. |
 | `quiet-md` | [s1dashu/quiet-md](https://github.com/s1dashu/quiet-md) | Fast, quiet notes that live on your computer. A native notes app built with Rust + GPUI. |
 | `rustrest` | [SojebSikder/rustrest](https://github.com/SojebSikder/rustrest) | An open-source, cross-platform native API testing platform written in Rust. |
+| `thinkterm` | [RoversX/ThinkTerm](https://github.com/RoversX/ThinkTerm) | A workspace-first terminal with a built-in multiplexer that keeps your sessions running after you close the window. |
 | `tomoru` | [ACAne0320/Tomoru](https://github.com/ACAne0320/Tomoru) | Live bilingual subtitles for anything your computer plays: videos, streams, games, and meetings. |
 | `wake` | [iAmCorey/Wake](https://github.com/iAmCorey/Wake) | A native desktop app that gathers every coding-agent session on your machine into one place. |
 
