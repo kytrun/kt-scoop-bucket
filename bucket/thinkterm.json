@@ -6,10 +6,15 @@
     "url": "https://github.com/RoversX/ThinkTerm/releases/download/0.6.2/ThinkTerm-windows-0.6.2.zip",
     "hash": "7c6e70035fb270538779f05df6a740d885d225189856c5bfeb5dcb440b8b7027",
     "extract_dir": "ThinkTerm-windows-0.6.2",
-    "bin": "thinkterm.exe",
+    "bin": [
+        [
+            "thinkterm-gui.exe",
+            "thinkterm"
+        ]
+    ],
     "shortcuts": [
         [
-            "thinkterm.exe",
+            "thinkterm-gui.exe",
             "ThinkTerm"
         ]
     ],
