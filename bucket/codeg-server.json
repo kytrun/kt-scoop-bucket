@@ -1,0 +1,29 @@
+{
+    "version": "0.49.0",
+    "description": "Self-hosted server for Codeg, a collaborative multi-agent AI coding workspace that aggregates sessions from Claude Code, Codex, OpenCode, and others.",
+    "homepage": "https://github.com/spacering-net/codeg",
+    "license": "Apache-2.0",
+    "url": "https://github.com/spacering-net/codeg/releases/download/v0.49.0/codeg-server-windows-x64.zip",
+    "hash": "0df91ac3262d88571f17c360979be1d9ffe4cabbd2497b798cedacda9c81bbe",
+    "extract_dir": "codeg-server-windows-x64",
+    "bin": [
+        "codeg-server.exe",
+        "codeg-cli.exe"
+    ],
+    "env_set": {
+        "CODEG_STATIC_DIR": "$dir\\web"
+    },
+    "notes": [
+        "Run `codeg-server`, then open the web UI at http://localhost:3080.",
+        "The access token is printed to the terminal on first start; data lives in %APPDATA%\\codeg."
+    ],
+    "checkver": {
+        "github": "https://github.com/spacering-net/codeg"
+    },
+    "autoupdate": {
+        "url": "https://github.com/spacering-net/codeg/releases/download/v$version/codeg-server-windows-x64.zip",
+        "hash": {
+            "url": "$baseurl/codeg-server-windows-x64.zip.sha256"
+        }
+    }
+}

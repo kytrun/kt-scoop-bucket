@@ -16,6 +16,7 @@ scoop install kt/<app>
 | `ai-memory` | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | Long-term memory for agent coding CLIs and handoff between different agent vendors. |
 | `bsk` | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | Connect your AI agent to the browser you already use. |
 | `codedb` | [justrach/codedb](https://github.com/justrach/codedb) | Code intelligence for your coding agent, built in Zig and connected over MCP. |
+| `codeg-server` | [spacering-net/codeg](https://github.com/spacering-net/codeg) | Self-hosted server for Codeg, a collaborative multi-agent AI coding workspace that aggregates sessions from Claude Code, Codex, OpenCode, and others. |
 | `duckle` | [slothflowlabs/duckle](https://github.com/slothflowlabs/duckle) | An open-source ETL platform for authoring pipelines on a canvas, in Python, or SQL and running them on your own infrastructure. |
 | `elyoffice` | [ELY-Open-Source/ElyOffice](https://github.com/ELY-Open-Source/ElyOffice) | An offline-first office suite (ElyMail, ElyDoc, ElyTable, ElyShow, ElyPDF, ElyMark, ElyTree) built in Rust and GPUI. |
 | `google-java-format` | [google/google-java-format](https://github.com/google/google-java-format) | A Java formatter that reformats Java source code to comply with Google Java Style. |
