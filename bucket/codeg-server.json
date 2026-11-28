@@ -4,7 +4,7 @@
     "homepage": "https://github.com/spacering-net/codeg",
     "license": "Apache-2.0",
     "url": "https://github.com/spacering-net/codeg/releases/download/v0.49.0/codeg-server-windows-x64.zip",
-    "hash": "0df91ac3262d88571f17c360979be1d9ffe4cabbd2497b798cedacda9c81bbe",
+    "hash": "e0df91ac3262d88571f17c360979be1d9ffe4cabbd2497b798cedacda9c81bbe",
     "extract_dir": "codeg-server-windows-x64",
     "bin": [
         "codeg-server.exe",
